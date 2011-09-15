@@ -1,0 +1,319 @@
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="http://gettopup.com/releases/latest/top_up-min.js?1298847136"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
+<script> 
+$(window).load(function() {
+ 
+$("#slider ul.random-ul").randomize("li.random-li");
+ 
+});
+ 
+(function($) {
+ 
+$.fn.randomize = function(childElem) {
+  return this.each(function() {
+      var $this = $(this);
+      var elems = $this.children(childElem);
+      
+      elems.sort(function() { return (Math.round(Math.random())-0.5); });  
+ 
+      $this.empty();  
+ 
+      for(var i=0; i < elems.length; i++)
+        $this.append(elems[i]);      
+ 
+  });    
+}
+})(jQuery);
+ 
+</script>
+<script type="text/javascript" src="js/easySlider.packed.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){	
+		$("#slider").easySlider({
+			orientation:'vertical',
+			nextText: 'More Members',
+			prevText: 'Previous Members'
+		});
+	});
+</script>
+<style>
+	/* Easy Slider */
+	
+	#slider ul, #slider li{
+		margin:0;
+		padding:0;
+		height:340px;
+		list-style:none;
+		}
+	#slider, #slider li{ 
+		/* 
+			define width and height of container element and list item (slide)
+			list items must be the same size as the slider area
+		*/ 
+	
+		height:340px;
+		width: 740px;
+		overflow:hidden; 
+	}
+	
+	
+	span#prevBtn{}
+	span#nextBtn{}					
+	
+	/* // Easy Slider */
+</style>	
+	
+</head>	
+<body>
+<div id="background">
+	
+<div id="main">
+	
+	<div id="wrapper">
+	<div id="tab">
+		<a class="tab-button-inactive" id="button1" href="index.html"></a>
+		<a class="tab-button-active" id="button2" href="themembers.html"></a>
+		<a class="tab-button-inactive" id="button3" href="theevents.html"></a>
+		<a class="tab-button-inactive" id="button4" href="thestories.html"></a>
+		<a class="tab-button-inactive" id="button5" href="findyourhub.html"></a>
+
+	</div>
+	<div class="content" id="page2">
+	
+	
+		<div id="section2">
+			<img class="section2_image1" src="images/You-find-a-community2.png">
+			<img class="section2_image2" src="images/You-meet-techies.png">
+			
+			<div class="section2_content">
+				<p class="title">Who are the members?</p>
+				<p>The Hub takes an active role in working with people who want to move their ideas from intent to action and impact. People with ideas that bring meaningful solutions to social, economic and ecological challenges. </p>
+				<p>The people in our communities work on prototyping new approaches that are more sustainable, impactful and scalable within local and global contexts. </p>
+				</p>
+				<div class="dynamic-content">
+					<p class="title">Some of our members:</p>
+					<div id="slider">
+						<ul class="random-ul">
+							<li class="random-li">
+								<div class="image_box2">
+									<div class="image2">
+										<a href="images/members/nikolaushutter1.jpg" class="top_up"><img src="images/members/nikolaushutter1_small.jpg"><div class="image3_inlinetext">click to see gallery</div></a>
+									</div>
+									<div class="image2_text">
+										<div class="title2">Nikolaus Hutter (<a href="http://www.organicawater.com/
+										">Organica Water</a>) <span class="title-description">Waste Water Treatment</span></div>
+										Water is scarce. And getting more so all the time. Organica is a global water management leader with patented water technology for treating and recycling wastewater. They combine traditional biological wastewater treatment methods with sophisticated ecological engineering, innovative process design and efficient control software.
+										
+									</div>
+								</div>
+								<div class="image_box2">
+									<div class="image2">
+										<a href="images/members/remiparmentier1.jpg" class="top_up"><img src="images/members/remiparmentier1_small.jpg"></a>
+									</div>
+									<div class="image2_text">
+										<div class="title2">Rémi Parmentier (<a href="http://www.vardagroup.org">Co-Founder of The Varda Group</a>) <span class="title-description">Environmental Protection</span></div>
+										The Varda Group offers strategic advice and campaigning expertise across a wide range of environmental and social issues. In addition, Stichting Varda, a not-for-profit non-governmental organisation, carries out independent advocacy initiatives. The Varda group mission is to provide strategic services and support, with the aim of creating maximum change for the benefit of people and the planet.
+									</div>
+								</div>
+								<div class="image_box2">
+									<div class="image2">
+										<a href="http://www.youtube.com/v/HaH3ahpwAy8" toptions="width = 830, height = 505, type = flash, title = Olof Soebech – everyday stories" id="element_1"><img alt="Youtube" src="images/members/olofsoebech1_small.jpg" id="element_0"></a>
+									</div>
+									<div class="image2_text">
+										<div class="title2">Olof Soebech (<a href="http://www.everydaystories.be/front">everyday stories</a>) 
+										<span class="title-description"></span></div>
+										We know a lot about the environmental & social challenges we face. We care & want to make a difference, but how? What is a meaningful and sustainable life? How do we get there? This project tells the stories of individuals who live in European cities & who’ve found their own ways to lead sustainable and meaningful lives; people that we can identify with and who can open our eyes and inspire us to different ways of living, working & traveling. 
+									</div>
+								</div>
+							</li>
+						<li class="random-li">
+									<div class="image_box2">
+										<div class="image2">
+											<a href="images/members/conchitagaldon1.jpg" class="top_up"><img src="images/members/conchitagaldon1_small.jpg"></a>
+										</div>
+										<div class="image2_text">
+											<div class="title2">Conchita Galdón (<a href="http://www.puentesglobal.org">Co-Founder of Puentes Global</a>) <span class="title-description"></span></div>
+											Conchita Galdon is co-founder of “Puentes Global” means which means “Global Bridges,” and our name reflects our purpose: bridging the global gaps in semi-skilled, specialized labor and alleviating poverty. Our mutual values sparked the creation of Puentes, and provide us with the dedication, commitment, and impetus to promote sustainable, positive change through our mission.
+											
+										</div>
+									</div>
+										<div class="image_box2">
+											<div class="image2">
+												<a href="images/members/filipvanmullem1.jpg" class="top_up"><img src="images/members/filipvanmullem1_small.jpg"></a>
+											</div>
+											<div class="image2_text">
+												<div class="title2">Filip Van Mullem (<a href="http://www.hu-bu.be">Hu-Bu</a>) <span class="title-description"></span></div>
+													Hu-Bu helps companies offer time & skills to social-profit organisations through corporate volunteering programs. Its innovative interface enables organisations to communicate their needs & allows corporate volunteers to directly select the social, environmental or cultural projects they want to help. They also coordinate the exchange of office material which companies wish to offer to social organisations who are unable to buy.
+											</div>
+										</div>
+										<div class="image_box2">
+											<div class="image2">
+												<a href="images/members/edwardgoossens1.jpg" class="top_up"><img src="images/members/edwardgoossens1_small.jpg"></a>
+											</div>
+											<div class="image2_text">
+												<div class="title2">Edward Goossens (<a href="www.gutts.nl">GUTTS</a>) <span class="title-description">sustainable racing</span></div>
+												GUTTS creates sustainable auto- and motorsports, building various race and rally cars that run on biofuels and helping crews to become more sustainable. In the Netherlands GUTTS has contributed to large number of sustainable projects in motorsports. In total some 30 crews are racing on alternative fuels and making motorsports more sustainable and we are looking to double that number in 2011.											</div>
+										</div>
+									</li>
+								<li class="random-li">
+									<div class="image_box2">
+										<div class="image2">
+											<a href="http://www.youtube.com/v/GFWeo-RJLBk" toptions="width = 830, height = 505, type = flash, title = Martin Ophoven – Théâtre Carbonique" id="element_1"><img alt="Youtube" src="images/members/martinophoven1_small.jpg" id="element_0"></a>
+										</div>
+										<div class="image2_text">
+											<div class="title2">Martin Ophoven (<a href="http://theatrecarbonique.be/">Théâtre Carbonique</a>) 
+											<span class="title-description"></span></div>
+											We know a lot about the environmental & social challenges we face. We care & want to make a difference, but how? What is a meaningful and sustainable life? This project tells the stories of individuals who live in European cities & who’ve found their own ways to lead sustainable and meaningful lives; people that we can identify with and who can open our eyes and inspire us to different ways of living, working & traveling. 
+										</div>
+									</div>
+									<div class="image_box2">
+										<div class="image2">
+											<a href="images/members/carllensstijnvanbalen1.jpg" class="top_up"><img src="images/members/carllensstijnvanbalen1_small.jpg"></a>
+										</div>
+										<div class="image2_text">
+											<div class="title2">Carl Lens & Stijn van Balen  (<a href="http://www.verbeterdebuurt.nl">Verbeterdebuurt </a>) 
+											<span class="title-description">A platform for neighborhood improvement </span></div>
+												Verbeterdebuurt foundation runs a prizewinning platform that engages people to improving their neighborhood. With our mobile application and through our web application people can post problems and ideas in their neighborhoods. 300 out of 418 councils in the Netherlands participate in our projects, solving the thousands of reports that we have gathered, resulting in many green flags on the map. 										</div>
+									</div>
+												<div class="image_box2">
+													<div class="image2">
+														<a href="images/members/germanarguelles1.jpg" class="top_up"><img src="images/members/germanarguelles1_small.jpg"></a>
+													</div>
+													<div class="image2_text">
+														<div class="title2">Germán Argüelles (<a href="http://www.inspirasports.com">Co-Founder of InspiraSports</a>) <span class="title-description">Sports</span></div>
+														Germán Argüelles is co-founder of InspiraSports which is a social enterprise specialized in the field of sports for development.The sport has emerged as an increasingly effective tool in the field of social action and both NGOs and public and private organizations are beginning to incorporate sport as part of its CSR strategy. 
+														
+													</div>
+												</div>
+											</li>
+						<li class="random-li">
+							<div class="image_box2">
+								<div class="image2">
+									<a href="images/members/carmenvandevecht1.jpg" class="top_up"><img src="images/members/carmenvandevecht1_small.jpg"></a>
+								</div>
+								<div class="image2_text">
+									<div class="title2">Carmen van de Vecht (<a href="http://www.rmblr.com">Rambler</a>) 
+									<span class="title-description">Streetwear made by streetkids</span></div>
+										Carmen runs Rambler, a clothing label by and for homeless teenagers. These streetkids are the image and brand. They get a platform and a part of the profit. She started to shoot portraits of children in Ghana’s orphanages, and continued to photograph youth in orphanages in London. This is when her fascination with clothing started. Intrigued by their appearance, she started designing clothes with homeless youth.								</div>
+							</div>
+							<div class="image_box2">
+								<div class="image2">
+									<a href="images/members/kateandrews1.jpg" class="top_up"><img src="images/members/kateandrews1_small.jpg"></a>
+								</div>
+								<div class="image2_text">
+									<div class="title2">Kate Andrews (<a href="http://www.loco2.co.uk">Loco2</a>) 
+									<span class="title-description">train booking and low carbon travel</span></div>
+										Kate and her brother Jamie have launched Loco2, a streamlined rail booking system for Europe. Loco2 aims to make Europe by rail quicker, cheaper and easier with its sophisticated online journey planning tool.								</div>
+							</div>
+										<div class="image_box2">
+											<div class="image2">
+												<a href="images/members/germanarguelles1.jpg" class="top_up"><img src="images/members/germanarguelles1_small.jpg"></a>
+											</div>
+											<div class="image2_text">
+												<div class="title2">DUMMY PROFILE (<a href="http://www.inspirasports.com">Co-Founder of InspiraSports</a>) <span class="title-description">Sports</span></div>
+												Germán Argüelles is co-founder of InspiraSports which is a social enterprise specialized in the field of sports for development.The sport has emerged as an increasingly effective tool in the field of social action and both NGOs and public and private organizations are beginning to incorporate sport as part of its CSR strategy. 
+												
+											</div>
+										</div>
+									</li>
+								<li class="random-li">
+									<div class="image_box2">
+										<div class="image2">
+											<a href="images/members/carmenvandevecht1.jpg" class="top_up"><img src="images/members/carmenvandevecht1_small.jpg"></a>
+										</div>
+										<div class="image2_text">
+											<div class="title2">Carmen van de Vecht (<a href="http://www.rmblr.com">Rambler</a>) 
+											<span class="title-description">Streetwear made by streetkids</span></div>
+													
+													
+													Dummy									
+												
+												
+												</div>
+											</div>	
+									<div class="image_box2">
+										<div class="image2">
+											<a href="images/members/kateandrews1.jpg" class="top_up"><img src="images/members/kateandrews1_small.jpg"></a>
+										</div>
+										<div class="image2_text">
+											<div class="title2">Kate Andrews (<a href="http://www.loco2.co.uk">Loco2</a>) 
+											<span class="title-description">train booking and low carbon travel</span></div>
+												
+												
+												Dummy								
+											
+											
+											</div>
+									</div>
+												<div class="image_box2">
+													<div class="image2">
+														<a href="images/members/moreassociates1.jpg" class="top_up"><img src="images/members/moreassociates1_small.jpg"></a>
+													</div>
+													<div class="image2_text">
+														<div class="title2">More Associates (<a href="http://www.carbonculture.net">www.carbonculture.net</a>) <span class="title-description">sustainability design consultancy</span></div>
+														More Associates focuses creating carbon behaviour change software, integrated with user-centred design. The organisation was created by founding Hub member Luke Nicholson and has since grown to around ten members of staff. Their current initiative, CarbonCulture, is pioneering new ways for organisations to reduce energy consumption and is running pilot schemes in a number of UK government departments.
+														
+													</div>
+												</div>
+											</li>
+									<li class="random-li">
+										<div class="image_box2">
+											<div class="image2">
+												<a href="images/members/servanemouazan1.jpg" class="top_up"><img src="images/members/servanemouazan1_small.jpg"></a>
+											</div>
+											<div class="image2_text">
+												<div class="title2">Servane Mouazan (<a href="http://www.ogunte.com">Founder of Ogunte</a>) 
+												<span class="title-description">Social Business Development</span></div>
+													
+													Ogunte focused on women-led social ventures. Their vision: A better World, powered by women. Ogunte promotes and supports women who want to lead the social economy and helps businesses to measure and articulate their economic and social impact. Ogunte also runs the annual Women's Social Innovation Leadership Awards and Make a Wave, the first pre-incubator dedicated to Women Social Entrepreneurs.								
+													
+													
+													</div>
+												</div>	
+										<div class="image_box2">
+											<div class="image2">
+												<a href="images/members/kateandrews1.jpg" class="top_up"><img src="images/members/kateandrews1_small.jpg"></a>
+											</div>
+											<div class="image2_text">
+												<div class="title2">Kate Andrews (<a href="http://www.loco2.co.uk">Loco2</a>) 
+												<span class="title-description">train booking and low carbon travel</span></div>
+													
+													
+													Dummy								
+												
+												
+												</div>
+										</div>
+													<div class="image_box2">
+														<div class="image2">
+															<a href="images/members/moreassociates1.jpg" class="top_up"><img src="images/members/moreassociates1_small.jpg"></a>
+														</div>
+														<div class="image2_text">
+															<div class="title2">More Associates (<a href="http://www.carbonculture.net">www.carbonculture.net</a>) <span class="title-description">sustainability design consultancy</span></div>
+															
+															
+															Dummy
+															
+															
+															
+														</div>
+													</div>
+												</li>
+						</ul>
+					</div>
+				</div>
+			<div class="action-button"><span>click here to </span><a class="action-button-inactive" href="findyourhub.html"></a></div>
+			</div>
+					
+		</div>	
+	</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

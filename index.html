@@ -1,0 +1,245 @@
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="http://gettopup.com/releases/latest/top_up-min.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+</head>	
+<body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
+<script> 
+$(window).load(function() {
+ 
+$("#slider ul.random-ul").randomize("li.random-li");
+ 
+});
+ 
+(function($) {
+ 
+$.fn.randomize = function(childElem) {
+  return this.each(function() {
+      var $this = $(this);
+      var elems = $this.children(childElem);
+      
+      elems.sort(function() { return (Math.round(Math.random())-0.5); });  
+ 
+      $this.empty();  
+ 
+      for(var i=0; i < elems.length; i++)
+        $this.append(elems[i]);      
+ 
+  });    
+}
+})(jQuery);
+ 
+</script>
+<script type="text/javascript" src="js/easySlider.packed.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){	
+		$("#slider").easySlider({
+			orientation:'horizontal',
+			nextText: 'More Hubs',
+			prevText: 'Previous Hubs'
+		});
+	});
+</script>
+
+<script type="text/javascript">
+  TopUp.addPresets({
+    ".section1_images a": {
+      title: "({current} of {total}) {alt}",
+      group: "examples",
+      readAltText: 1,
+      shaded: 1
+    }
+  });
+</script>
+<style>
+	/* Easy Slider */
+	
+	#slider ul, #slider li{
+		margin:0;
+		padding:0;
+		height:180px;
+		list-style:none;
+		}
+	#slider, #slider li{ 
+		/* 
+			define width and height of container element and list item (slide)
+			list items must be the same size as the slider area
+		*/ 
+	
+		height:180px;
+		width: 740px;
+		overflow:hidden; 
+	}
+	
+	
+	span#prevBtn{}
+	span#nextBtn{}					
+	
+	/* // Easy Slider */
+</style>	
+
+<div id="background">
+
+
+<div id="main">
+	
+	<div id="wrapper">
+	<div id="tab">
+<a class="tab-button-active" id="button1" href="index.html"></a>
+<a class="tab-button-inactive" id="button2" href="themembers.html"></a>
+<a class="tab-button-inactive" id="button3" href="theevents.html"></a>
+<a class="tab-button-inactive" id="button4" href="thestories.html"></a>
+<a class="tab-button-inactive" id="button5" href="findyourhub.html"></a>
+
+	</div>
+	<div class="content" id="page1">
+	
+		<div id="section1">
+			<div class="section1_content">
+				<p class="title">What is the Hub?</p>
+				<p>At the Hub we create spaces that inspire, connect and empower people to realise enterprising ideas for sustainable impact.</p>
+				<p>We are curators of the physical, virtual and social spaces where the change we want to see in the world is happening. Our spaces help materialise this change by offering a unique mix of infrastructure, connections and inspiration.</p>
+				<p>Our 5000+ members come to the Hub across 33 cities on 5 continents, to take collaborative action for a better world.</p>
+			<div class="dynamic-content">	 
+				 <div id="slider">
+				 	<ul class="random-ul">
+				 		<li class="random-li">
+							<div class="section1_images">
+								<div class="image_box">
+									<div class="image1">
+										<a href="images/hubs/islington1.jpg"><img src="images/hubs/islington1_small.jpg" alt="Hub Islington"/></a>
+										
+									</div>
+									<div class="image1_title">
+										Hub Islington
+									</div>	
+								</div>
+								<div class="image_box">
+									<div class="image1">
+										<a href="images/hubs/amsterdam1.jpg"><img src="images/hubs/amsterdam1_small.jpg" alt="Hub Amsterdam"/></a>
+									</div>
+									<div class="image1_title">
+										Hub Amsterdam
+									</div>	
+								</div>
+								<div class="image_box">
+									<div class="image1">
+										<a href="images/hubs/brussels1.jpg"><img src="images/hubs/brussels1_small.jpg"  alt="Hub Brussels"/></a>
+									</div>
+									<div class="image1_title">
+										Hub Brussels
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="random-li">
+						<div class="section1_images">
+							<div class="image_box">
+								<div class="image1">
+									<a href="images/hubs/madrid1.jpg"><img src="images/hubs/madrid1_small.jpg" alt="Hub Madrid"/></a>
+									
+								</div>
+								<div class="image1_title">
+									Hub Madrid
+								</div>	
+							</div>
+							<div class="image_box">
+								<div class="image1">
+									<a href="images/hubs/kingscross1.jpg"><img src="images/hubs/kingscross1_small.jpg" alt="Hub Kings Cross"/></a>
+								</div>
+								<div class="image1_title">
+									Hub Kings Cross
+								</div>	
+							</div>
+							<div class="image_box">
+								<div class="image1">
+									<a href="images/hubs/milan1.jpg"><img src="images/hubs/milan1_small.jpg"  alt="Hub Milan"/></a>
+								</div>
+								<div class="image1_title">
+									Hub Milan
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="random-li">
+						<div class="section1_images">
+							<div class="image_box">
+								<div class="image1">
+									<a href="images/hubs/prague1.jpg"><img src="images/hubs/prague1_small.jpg" alt="Hub Prague"/></a>
+									
+								</div>
+								<div class="image1_title">
+									Hub Prague
+								</div>	
+							</div>
+							<div class="image_box">
+								<div class="image1">
+									<a href="images/hubs/saopaulo1.jpg"><img src="images/hubs/saopaulo1_small.jpg" alt="Hub Sao Paulo"/></a>
+								</div>
+								<div class="image1_title">
+									Hub Sao Paulo
+								</div>	
+							</div>
+							<div class="image_box">
+								<div class="image1">
+									<a href="images/hubs/telaviv1.jpg"><img src="images/hubs/telaviv1_small.jpg"  alt="Hub Tel Aviv"/></a>
+								</div>
+								<div class="image1_title">
+									Hub Tel Aviv
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="random-li">
+						<div class="section1_images">
+							<div class="image_box">
+								<div class="image1">
+									<a href="images/hubs/vienna1.jpg"><img src="images/hubs/vienna1_small.jpg" alt="Hub Vienna"/></a>
+									
+								</div>
+								<div class="image1_title">
+									Hub Vienna
+								</div>	
+							</div>
+							<div class="image_box">
+								<div class="image1">
+									<a href="images/hubs/zurich1.jpg"><img src="images/hubs/zurich1_small.jpg" alt="Hub Zurich"/></a>
+								</div>
+								<div class="image1_title">
+									Hub Zurich
+								</div>	
+							</div>
+							<div class="image_box">
+								<div class="image1">
+									
+								</div>
+								<div class="image1_title">
+									Hub X
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+						
+						
+											
+				</div>
+			</div>				
+							
+			</div>
+		<div class="action-button"><span>click here to </span><a class="action-button-inactive" href="findyourhub.html"></a></div>
+		</div>
+	<div class="watch-on-youtube"><a href="#"></a></div>	
+	</div>
+	
+	
+	
+</div>
+</div>
+</div>
+
+</body>
+</html>

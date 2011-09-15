@@ -1,0 +1,312 @@
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="http://gettopup.com/releases/latest/top_up-min.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
+	<script> 
+	$(window).load(function() {
+	 
+	$("#slider ul.random-ul").randomize("li.random-li");
+	 
+	});
+	 
+	(function($) {
+	 
+	$.fn.randomize = function(childElem) {
+	  return this.each(function() {
+	      var $this = $(this);
+	      var elems = $this.children(childElem);
+	      
+	      elems.sort(function() { return (Math.round(Math.random())-0.5); });  
+	 
+	      $this.empty();  
+	 
+	      for(var i=0; i < elems.length; i++)
+	        $this.append(elems[i]);      
+	 
+	  });    
+	}
+	})(jQuery);
+	 
+	</script>
+	<script type="text/javascript" src="js/easySlider.packed.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){	
+			$("#slider").easySlider({
+				orientation:'horizontal',
+				nextText: 'More Stories',
+				prevText: 'Previous Stories'
+			});
+		});
+	</script>
+	
+
+	<script type="text/javascript">
+	  TopUp.addPresets({
+	    "#image31 a": {
+	      title: "({current} of {total}) {alt}",
+	      group: "examples1",
+	      readAltText: 1,
+	      shaded: 1
+	    }
+	  });
+	</script>
+	
+	<script type="text/javascript">
+	  TopUp.addPresets({
+	    "#image33 a": {
+	      title: "({current} of {total}) {alt}",
+	      group: "examples2",
+	      readAltText: 1,
+	      shaded: 1
+	    }
+	  });
+	</script>
+	
+	<script type="text/javascript">
+	  TopUp.addPresets({
+	    "#image36 a": {
+	      title: "({current} of {total}) {alt}",
+	      group: "examples3",
+	      readAltText: 1,
+	      shaded: 1
+	    }
+	  });
+	</script>
+	
+	<script type="text/javascript">
+	  TopUp.addPresets({
+	    "#image37 a": {
+	      title: "({current} of {total}) {alt}",
+	      group: "examples4",
+	      readAltText: 1,
+	      shaded: 1
+	    }
+	  });
+	</script>
+	
+
+	<style>
+		/* Easy Slider */
+		
+		#slider ul, #slider li{
+			margin:0;
+			padding:0;
+			height:385px;
+			list-style:none;
+			}
+		#slider, #slider li{ 
+			/* 
+				define width and height of container element and list item (slide)
+				list items must be the same size as the slider area
+			*/ 
+		
+			height:385px;
+			width: 740px;
+			overflow:hidden; 
+		}
+		
+		
+		span#prevBtn{}
+		span#nextBtn{}					
+		
+		/* // Easy Slider */
+	</style>
+</head>	
+<body>
+<div id="background">
+
+
+<div id="main">
+	
+	<div id="wrapper">
+	<div id="tab">
+<a class="tab-button-inactive" id="button1" href="index.html"></a>
+<a class="tab-button-inactive" id="button2" href="themembers.html"></a>
+<a class="tab-button-active" id="button3" href="theevents.html"></a>
+<a class="tab-button-inactive" id="button4" href="thestories.html"></a>
+<a class="tab-button-inactive" id="button5" href="findyourhub.html"></a>
+
+	</div>
+	<div class="content" id="page3">
+	
+		<div id="section3">
+			<img class="section3_image1" src="images/Workshops-and-Events.png">
+				<p class="title">What is happening at the Hub?</p>
+				<p><strong>Inspiring Space</strong>, <strong>vibrant Community</strong> and <strong>meaningful Content</strong>. The magic of the Hub is where these three elements connect in a hosted environment aimed to support your experience. 
+				<ul>
+					<li>You work in a nurturing physical space, equipped with the tools you need, so you can focus on what matters. </li>
+					<li>You connect locally and globally with diverse individuals that share your intention to make a difference. </li>
+					<li>From everyday interactions to eye opening events, you get the inspiration and knowledge needed to take your idea to action and impact.</li>
+				</ul>
+				</p>
+				<div class="dynamic-content">	
+					<p class="title">What are some of the events hosted at the Hub?</p>
+					 
+					 <div id="slider">
+					 	<ul class="random-ul">
+					 		<li class="random-li">
+								<div class="section3_images">
+									<div class="image_box3">
+										<div class="image3" id="image31">
+											<a href="images/events/cameron1_1.jpg"><img src="images/events/cameron1_1_small.jpg"><div class="image3_inlinetext">click to see gallery</div></a>
+											
+											<div class="hiddenimages">
+												<a href="images/events/cameron1_2.jpg"></a>
+												<a href="images/events/cameron1_3.jpg"></a>
+												<a href="images/events/cameron1_4.jpg"></a>
+												<a href="images/events/cameron1_5.jpg"></a>
+											</div>
+										</div>
+										<div class="image3_title">
+											<strong>Cameron Sinclair</strong>, the founder of <a href="http://architectureforhumanity.org/">Architecture for Humanity</a> (and advisor to the Obama administration), recently came to Hub Vienna to participate in an "ideas to action"-workshop for members with innovative ideas around green design and sustainable architecture.
+										</div>	
+									</div>
+									<div class="image_box3">
+										<div class="image3">
+											<a href="images/events/fabricsforfreedom1_1.jpg" class="top_up"><img src="images/events/fabricsforfreedom1_1_small.jpg"><div class="image3_inlinetext">click to enlarge</div></a>
+										</div>
+										<div class="image3_title">
+											Activist Vandana Shiva presented in HUB Madrid the new foundation <strong>FABRICS FOR FREEDOM</strong> (FFF) and its main project EstaBolsaTieneTela in the Hub. FFF is an initiative that supports and promotes ecological fabric production and helps to market them, creating awareness of a responsible consumption.
+										</div>	
+									</div>
+									<div class="image_box3">
+										<div class="image3" id="image33">
+											<a href="images/events/coworkingeu1_1.jpg"><img src="images/events/coworkingeu1_1_small.jpg"><div class="image3_inlinetext">click to see gallery</div></a>
+											<div class="hiddenimages">
+												<a href="images/events/coworkingeu1_2.jpg"></a>
+												<a href="images/events/coworkingeu1_3.jpg"></a>
+												<a href="images/events/coworkingeu1_4.jpg"></a>
+												<a href="images/events/coworkingeu1_5.jpg"></a>
+											</div>
+										</div>
+										<div class="image3_title">
+											<strong>Coworking EU</strong><br/>
+											
+											Back in November 2010 Hub Brussels brought you the Coworking EU conference co-organised by the Hub and member Jean-Yves Huwart. More than 150 attendees from 22 different countries came together to uncover the real potential of coworking featuring exciting presentations and inspiring debates.
+											
+										</div>	
+									</div>					
+								</div>
+							</li>
+							<li class="random-li">
+								<div class="section3_images">
+									<div class="image_box3">
+										<div class="image3">
+											<a href="images/events/tedxmadrid1_1.jpg" class="top_up"><img src="images/events/tedxmadrid1_1_small.jpg"><div class="image3_inlinetext">click to enlarge</div></a>
+										</div>
+										<div class="image3_title">
+											In the spirit of ideas worth spreading, TED has created a program called TEDx. HUB Madrid hosted <strong>TEDxMadrid</strong>, where x=independently organized TED event. At our TEDxMadrid event, TEDTalks video and live speakers combined to spark deep discussion and connection in a small group. 
+										</div>	
+									</div>
+									<div class="image_box3">
+										<div class="image3">
+											<a href="images/events/smartfish1_1.jpg" class="top_up"><img src="images/events/smartfish1_1_small.jpg"><div class="image3_inlinetext">click to enlarge</div></a>
+										</div>
+										<div class="image3_title">
+											<strong>Slow Fish, Fast Fish, Smart Fish?</strong><br/> In Hub Amsterdam, a dialogue took place between key stakeholders in the fishing industry to explore: What does smart development look like towards a healthy fish future? And what are leverage points towards a sustainable solution for developing countries and global corporations.
+											 
+										</div>	
+									</div>
+									<div class="image_box3">
+										<div class="image3" id="image36">
+											<a href="images/events/sustainableevents1_1.jpg"><img src="images/events/sustainableevents1_1_small.jpg"><div class="image3_inlinetext">click to see gallery</div></a>
+											<div class="hiddenimages">
+												<a href="images/events/sustainableevents1_2.jpg"></a>
+												<a href="images/events/sustainableevents1_3.jpg"></a>
+												<a href="images/events/sustainableevents1_4.jpg"></a>
+												<a href="images/events/sustainableevents1_5.jpg"></a>
+											</div>
+										</div>
+										<div class="image3_title">
+											<strong>How to organise sustainable meetings & events ?</strong><br/>
+											
+											As a leading eco event space in Brussels we wanted to encourage others to start thinking about the environmental impact of their events & conferences. Thus we brought together leading event organisers to talk about how to run sustainable events and share best practices from throughout the industry.
+										</div>	
+									</div>					
+								</div>
+							</li>
+							<li class="random-li">
+								<div class="section3_images">
+									<div class="image_box3">
+										<div class="image3" id="image37">
+											<a href="images/events/party201_1.jpg"><img src="images/events/party201_1_small.jpg"><div class="image3_inlinetext">click to see gallery</div></a>
+											<div class="hiddenimages">
+												<a href="images/events/party201_2.jpg"></a>
+												<a href="images/events/party201_3.jpg"></a>
+												<a href="images/events/party201_4.jpg"></a>
+												<a href="images/events/party201_5.jpg"></a>
+											</div>
+										</div>
+										<div class="image3_title">											
+											Did you realize that co-creation isn’t only for work? In August Hub Brussels hosted <strong>Party 2.0</strong>; a collection of “micro-parties” that became one big amoeba of a party. Each member brought at least 1 ingredient (music, decorations, friends) and facilitated the co-creation of a community celebration.
+										</div>	
+									</div>
+									<div class="image_box3">
+										<div class="image3">
+											<a href="images/events/socialinnovationinthecity1_1.jpg" class="top_up"><img src="images/events/socialinnovationinthecity1_1_small.jpg"><div class="image3_inlinetext">click to enlarge</div></a>
+										</div>
+										<div class="image3_title">
+											Joined by our friends, the Knowmads, we asked: How can we enable <strong>Social Innovation in the City</strong> of Amsterdam? How can this “generation E” contribute to a more generative economy? We found  that The Hub can play a vital role in convening people, catalyzing new connections and supporting innovators to get started.
+											 
+										</div>	
+									</div>
+									<div class="image_box3">
+										<div class="image3">
+											<a href="images/events/appdate1_1.jpg" class="top_up"><img src="images/events/appdate1_1_small.jpg"><div class="image3_inlinetext">click to enlarge</div></a>
+										</div>
+										<div class="image3_title">
+											<strong>The App Date</strong> is a place of connection, ideas, research and creativity on apps. Applications are turning it all: meet, exchange, investigate and bring to the table cutting-edge projects in the field of apps is what invites you on the last Monday of each month at HUB Madrid. 
+										</div>	
+									</div>					
+								</div>
+							</li>
+							<li class="random-li">
+								<div class="section3_images">
+									<div class="image_box3">
+										<div class="image3" id="image37">
+											<a href="images/events/party201_1.jpg"><img src="images/events/party201_1_small.jpg"><div class="image3_inlinetext">click to see gallery</div></a>
+											<div class="hiddenimages">
+												<a href="images/events/party201_2.jpg"></a>
+												<a href="images/events/party201_3.jpg"></a>
+												<a href="images/events/party201_4.jpg"></a>
+												<a href="images/events/party201_5.jpg"></a>
+											</div>
+										</div>
+										<div class="image3_title">											
+											Dummy
+										</div>	
+									</div>
+									<div class="image_box3">
+										<div class="image3">
+											<a href="images/events/socialinnovationinthecity1_1.jpg" class="top_up"><img src="images/events/socialinnovationinthecity1_1_small.jpg"><div class="image3_inlinetext">click to enlarge</div></a>
+										</div>
+										<div class="image3_title">
+											DummY
+											 
+										</div>	
+									</div>
+									<div class="image_box3">
+										<div class="image3">
+											<a href="images/events/urbanmatters1_1.jpg" class="top_up"><img src="images/events/urbanmatters1_1_small.jpg"><div class="image3_inlinetext">click to enlarge</div></a>
+										</div>
+										<div class="image3_title">
+											Presentation of the <strong>Urban Matters</strong> initiative aiming for urban regeneration in Philippi, Cape Town: A diverse group including experts in sustainability architecture, creative youth development, employment creation and waste management looked opportunities they saw in the Philippi area and identified value adding solutions.
+										</div>	
+									</div>					
+								</div>
+							</li>
+						</ul>
+					</div>	
+				<div class="action-button"><span>click here to </span><a class="action-button-inactive" href="findyourhub.html"></a></div>	
+				
+		</div>
+			
+	</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
