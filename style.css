@@ -519,4 +519,63 @@ a.action-button-inactive:hover  {
 	margin-top: 25;
 }
 
+.image2_inlinepicture{
+	background-image: url(images/Photo_48.png);
+	background-repeat:no-repeat;
+	top: -30px;
+	left: -8px;
+	position: relative;
+	width: 48px;
+	height: 48px;
+}
 
+.image2_inlinevideo{
+	background-image: url(images/Video_48.png);
+	background-repeat:no-repeat;
+	top: -30px;
+	left: -8px;
+	position: relative;
+	width: 48px;
+	height: 48px;
+}
+
+.image3_inlinealbum{
+	background-image: url(images/Album_48.png);
+	background-repeat:no-repeat;
+	top: -35px;
+	left: 0px;
+	position: relative;
+	width: 48px;
+	height: 48px;
+}
+
+.legend img {
+	top: 0px;
+	position: relative;
+	padding-bottom: -15px;
+	margin-bottom:	-15px;
+	width: 32px;
+
+}
+
+
+.legend-title {
+	font-size: 13px;
+	color: maroon;	
+	font-weight: bold;
+	padding-top: 3px;
+	float: left;
+}
+
+.legend-text {
+	padding-left: 30px;
+}
+
+div.legend {
+	margin-top: 30px;
+	border: 1px dashed #949494;
+	padding: 7px;
+	width: 200px;
+	float: left;
+	margin-bottom: 10px;
+}

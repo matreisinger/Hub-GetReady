@@ -30,18 +30,6 @@
 		<array>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/matthiasreisinger/Documents/Hub%20Neu/Hub%20Projects/Video%20(Animation)/Website/themembers.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>StateType</key>
-				<string>PreviewTab</string>
-				<key>URL</key>
-				<string>file:///Users/matthiasreisinger/Documents/Hub%20Neu/Hub%20Projects/Video%20(Animation)/Website/themembers.html</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
 				<string>file://localhost/Users/matthiasreisinger/Documents/Hub%20Neu/Hub%20Projects/Video%20(Animation)/Website/index.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
@@ -51,6 +39,18 @@
 				<string>PreviewTab</string>
 				<key>URL</key>
 				<string>file:///Users/matthiasreisinger/Documents/Hub%20Neu/Hub%20Projects/Video%20(Animation)/Website/index.html</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/matthiasreisinger/Documents/Hub%20Neu/Hub%20Projects/Video%20(Animation)/Website/themembers.html</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>StateType</key>
+				<string>PreviewTab</string>
+				<key>URL</key>
+				<string>file:///Users/matthiasreisinger/Documents/Hub%20Neu/Hub%20Projects/Video%20(Animation)/Website/themembers.html</string>
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
