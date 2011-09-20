@@ -245,8 +245,14 @@ div.location_column {
 	margin-left: 15px;;
 }
 
-.location_text li a:hover {
+.location_text li{
 	line-height: 20px;
+	font-size: 30px;
+}
+
+.location_text ul li {
+	line-height: 20px;
+
 }
 
 span.superscript {
@@ -578,4 +584,8 @@ div.legend {
 	width: 200px;
 	float: left;
 	margin-bottom: 10px;
+}
+
+#section5 a.nowebsite {
+	color: #848484;
 }

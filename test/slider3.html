@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0045)http://cssglobe.com/lab/easyslider1.5/02.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Easy Slider jQuery Plugin Demo</title>
+	    
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
+<script type="text/javascript" src="js/easySlider.packed.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){	
+			$("#slider").easySlider(			
+				prevId: 'prevBtn',
+				nextId: 'nextBtn',		
+				vertical: true, 
+				continuous: true 	
+			);
+		});
+	</script>
+	
+<style type="text/css">
+
+	body {
+		background:#fff url(images/bg_body.gif) repeat-x;
+		font:80% Trebuchet MS, Arial, Helvetica, Sans-Serif;
+		color:#333;
+		line-height:180%;
+		margin:0;
+		padding:0;
+		text-align:center;
+	}
+	h1{
+		font-size:180%;
+		font-weight:normal;
+		margin:0;
+		padding:20px;
+		}
+	h2{
+		font-size:160%;
+		font-weight:normal;
+		}	
+	h3{
+		font-size:140%;
+		font-weight:normal;
+		}	
+	img{border:none;}
+	pre{
+		display:block;
+		font:12px "Courier New", Courier, monospace;
+		padding:10px;
+		border:1px solid #bae2f0;
+		background:#e3f4f9;	
+		margin:.5em 0;
+		width:674px;
+		}	
+			
+    /* image replacement */
+        .graphic, #prevBtn, #nextBtn{
+            margin:0;
+            padding:0;
+            display:block;
+            overflow:hidden;
+            text-indent:-8000px;
+            }
+    /* // image replacement */
+			
+
+	#container{	
+		margin:0 auto;
+		position:relative;
+		text-align:left;
+		width:696px;
+		background:#fff;		
+		margin-bottom:2em;
+		}	
+	#header{
+		height:80px;
+		background:#5DC9E1;
+		color:#fff;
+		}				
+	#content{
+		position:relative;
+		}			
+
+/* Easy Slider */
+
+	#slider{}	
+	#slider ul, #slider li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:696px;
+		height:241px;
+		overflow:hidden; 
+		}	
+	#prevBtn, #nextBtn{ 
+		display:block;
+		width:30px;
+		height:77px;
+		position:absolute;
+		left:-30px;
+		top:71px;
+		}	
+	#nextBtn{ 
+		left:696px;
+		}														
+	#prevBtn a, #nextBtn a{  
+		display:block;
+		width:30px;
+		height:77px;
+		background:url(images/btn_prev.gif) no-repeat 0 0;	
+		}	
+	#nextBtn a{ 
+		background:url(images/btn_next.gif) no-repeat 0 0;	
+		}												
+
+/* // Easy Slider */
+
+</style>	
+	
+</head>
+<body>
+
+<div id="container">
+
+	<div id="header">
+		<h1>Easy Slider jQuery Plugin Demo - styled version</h1>
+	</div>
+
+	<div id="content">
+	
+		<div id="slider" style="width: 696px; height: 241px; overflow-x: hidden; overflow-y: hidden; ">
+			<ul style="width: 3480px; margin-left: -696px; ">				
+				<li style="float: left; "><a href="http://templatica.com/preview/30"><img src="./slider3_files/01.jpg" alt="Css Template Preview"></a></li>
+				<li style="float: left; "><a href="http://templatica.com/preview/7"><img src="./slider3_files/02.jpg" alt="Css Template Preview"></a></li>
+				<li style="float: left; "><a href="http://templatica.com/preview/25"><img src="./slider3_files/03.jpg" alt="Css Template Preview"></a></li>
+				<li style="float: left; "><a href="http://templatica.com/preview/26"><img src="./slider3_files/04.jpg" alt="Css Template Preview"></a></li>
+				<li style="float: left; "><a href="http://templatica.com/preview/27"><img src="./slider3_files/05.jpg" alt="Css Template Preview"></a></li>			
+			</ul>
+		</div> <span id="prevBtn"><a href="javascript:void(0);" style="display: block; ">Previous</a></span> <span id="nextBtn"><a href="javascript:void(0);">Next</a></span>
+			
+		<h3>Usage</h3>
+	
+<pre>$(document).ready(function(){	
+	$("#slider").easySlider();
+});</pre>
+
+	<h3>CSS</h3>
+	
+<pre>#slider{}	
+#slider ul, #slider li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+#slider li{ 
+	width:696px;
+	height:241px;
+	overflow:hidden; 
+	}	
+#prevBtn, #nextBtn{ 
+	display:block;
+	width:30px;
+	height:77px;
+	position:absolute;
+	left:-30px;
+	top:71px;
+	}	
+#nextBtn{ 
+	left:696px;
+	}														
+#prevBtn a, #nextBtn a{  
+	display:block;
+	width:30px;
+	height:77px;
+	background:url(images/btn_prev.gif) no-repeat 0 0;	
+	}	
+#nextBtn a{ 
+	background:url(images/btn_next.gif) no-repeat 0 0;	
+	}	</pre>	
+	
+		<p><a href="http://cssglobe.com/post/4004/easy-slider-15-the-easiest-jquery-plugin-for-sliding" title="read more about this jquery plugin">back to the article</a></p>
+		
+		<p><strong>Easy Slider</strong> jQuery Plugin is brought to you by <a href="http://cssglobe.com/" title="web standards magazine and css news">Css Globe</a> and supported by <a href="http://templatica.com/">Css Templates</a> by Templatica</p>
+
+	</div>
+
+</div>
+
+<script type="text/javascript" src="./slider3_files/blogsponsor.js"></script><div id="bsap_1258449" class="bsap_1258449 bsap"><div class="bsa_it one"><div class="bsa_it_ad ad1 odd" id="bsa_859419"><a href="http://stats.buysellads.com/click.go?z=1258449&b=859419&g=&s=&sw=1440&sh=900&br=chrome,14,mac&r=0.19229726260527968&link=http://www.activecampaign.com/l/email-marketing/?utm_source=adpack&utm_medium=banner&utm_term=adpack1&utm_content=rad1&utm_campaign=adpack-wd-1" onmouseover="window.status = &#39;http://www.activecampaign.com/l/email-marketing/?utm_source=adpack&amp;utm_medium=banner&amp;utm_term=adpack1&amp;utm_content=rad1&amp;utm_campaign=adpack-wd-1&#39;; return true;" onmouseout="window.status=&#39;&#39;; return true;" target="_blank"><span class="bsa_it_i"><img src="./slider3_files/47715-1294942593.gif" width="130" height="100" alt="Email Marketing Bliss"></span></a><a href="http://stats.buysellads.com/click.go?z=1258449&b=859419&g=&s=&sw=1440&sh=900&br=chrome,14,mac&r=0.6903644693084061&link=http://www.activecampaign.com/l/email-marketing/?utm_source=adpack&utm_medium=banner&utm_term=adpack1&utm_content=rad1&utm_campaign=adpack-wd-1" onmouseover="window.status = &#39;http://www.activecampaign.com/l/email-marketing/?utm_source=adpack&amp;utm_medium=banner&amp;utm_term=adpack1&amp;utm_content=rad1&amp;utm_campaign=adpack-wd-1&#39;; return true;" onmouseout="window.status=&#39;&#39;; return true;" target="_blank"><span class="bsa_it_t">Email Marketing Bliss</span><span class="bsa_it_d">Experience beautiful email marketing with power you have never seen before.</span></a><div style="clear:both"></div></div><span class="bsa_it_p"><a href="http://buysellads.com/buy/detail/155/zone/1258449?utm_source=site_155_zone_1258449&utm_medium=website&utm_campaign=imagetext">ads by BSA</a></span></div></div><style>.bsap{float:left;position:fixed;z-index:1000;top:20px;right:20px;width:300px;overflow:hidden;}.bsa_it_ad{overflow:hidden;}</style>
+
+
+
+</body></html>

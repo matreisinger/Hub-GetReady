@@ -34,13 +34,9 @@ $.fn.randomize = function(childElem) {
 </script>
 <script type="text/javascript" src="js/easySlider.packed.js"></script>
 <script type="text/javascript">
-	$(document).ready(function(){	
-		$("#slider").easySlider({
-			orientation:'horizontal',
-			nextText: 'More Hubs',
-			prevText: 'Previous Hubs'
-		});
-	});
+$(document).ready(function(){	
+	$("#slider").easySlider();
+});
 </script>
 
 <script type="text/javascript">
@@ -57,30 +53,37 @@ $.fn.randomize = function(childElem) {
 
 
 <style>
-	/* Easy Slider */
-	
-	#slider ul, #slider li{
-		margin:0;
-		padding:0;
-		height:180px;
-		list-style:none;
-		}
-	#slider, #slider li{ 
-		/* 
-			define width and height of container element and list item (slide)
-			list items must be the same size as the slider area
-		*/ 
-	
-		height:180px;
-		width: 740px;
-		overflow:hidden; 
+#slider{}	
+#slider ul, #slider li{
+	margin:0;
+	padding:0;
+	list-style:none;
 	}
-	
-	
-	span#prevBtn{}
-	span#nextBtn{}					
-	
-	/* // Easy Slider */
+#slider li{ 
+	width:696px;
+	height:241px;
+	overflow:hidden; 
+	}	
+#prevBtn, #nextBtn{ 
+	display:block;
+	width:30px;
+	height:77px;
+	position:absolute;
+	left:-30px;
+	top:71px;
+	}	
+#nextBtn{ 
+	left:696px;
+	}														
+#prevBtn a, #nextBtn a{  
+	display:block;
+	width:30px;
+	height:77px;
+	background:url(images/btn_prev.gif) no-repeat 0 0;	
+	}	
+#nextBtn a{ 
+	background:url(images/btn_next.gif) no-repeat 0 0;	
+	}
 </style>	
 
 <div id="background">
@@ -104,7 +107,7 @@ $.fn.randomize = function(childElem) {
 				<p class="title">What is the Hub?</p>
 				<p>At the Hub we create spaces that inspire, connect and empower people to realise enterprising ideas for sustainable impact.</p>
 				<p>We are curators of the physical, virtual and social spaces where the change we want to see in the world is happening. Our spaces help materialise this change by offering a unique mix of infrastructure, connections and inspiration.</p>
-				<p>Over 4,000 members in more than 30 cities on 5 continents, come to the Hub to take collaborative action for a better world.</p>
+				<p>Our 4000+ members come to the Hub across 33 cities on 5 continents, to take collaborative action for a better world.</p>
 			<div class="dynamic-content">	 
 				 <div id="slider">
 				 	<ul class="random-ul">
