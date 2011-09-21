@@ -91,22 +91,10 @@
 				<string>file:///Users/matthiasreisinger/Documents/Hub%20Neu/Hub%20Projects/Video%20(Animation)/Website/findyourhub.html</string>
 			</dict>
 			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/matthiasreisinger/Documents/Hub%20Neu/Hub%20Projects/Video%20(Animation)/Website/index%20Kopie.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
 				<key>StateType</key>
 				<string>PreviewTab</string>
 				<key>URL</key>
 				<string>file:///Users/matthiasreisinger/Documents/Hub%20Neu/Hub%20Projects/Video%20(Animation)/Website/index%20Kopie.html</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/matthiasreisinger/Documents/Hub%20Neu/Hub%20Projects/Video%20(Animation)/Website/test/easyslider1.5/02.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
 			</dict>
 			<dict>
 				<key>StateType</key>
