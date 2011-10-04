@@ -7,22 +7,20 @@
 	<key>ESProjectWindowState</key>
 	<dict>
 		<key>ContentSize</key>
-		<string>{1412, 761}</string>
+		<string>{1412, 701}</string>
 		<key>ProjectURL</key>
 		<string>file://localhost/Users/matthiasreisinger/Documents/Hub%20Neu/Hub%20Projects/Video%20(Animation)/Website/GetReady%20Page.esproj/</string>
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
-		<string>{28, 842}</string>
+		<string>{28, 782}</string>
 	</dict>
 	<key>com.macrabbit.Espresso.FileManager.DisclosureCollapsed</key>
 	<false/>
 	<key>com.macrabbit.Espresso.FileManager.FileControllerState</key>
 	<dict>
 		<key>ExpandedURLs</key>
-		<array>
-			<string>file://localhost/Users/matthiasreisinger/Documents/Hub%20Neu/Hub%20Projects/Video%20(Animation)/Website/test/easyslider1.5</string>
-		</array>
+		<array/>
 	</dict>
 	<key>com.macrabbit.Espresso.Publisher.DisclosureCollapsed</key>
 	<false/>
